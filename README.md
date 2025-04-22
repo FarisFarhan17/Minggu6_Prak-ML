@@ -8,7 +8,7 @@ Proyek ini berfokus pada klasifikasi tweet ke dalam beberapa kategori seperti Po
 ├── dataset_labeled.csv
 ├── dataset_unlabeled.csv
 ├── dataset_unlabeled_predicted.csv
-├── notebook.ipynb
+├── 2_ML_LP_7-6.ipynb
 └── README.md
 ```
 
@@ -178,7 +178,7 @@ Hasil dari evaluasi adalah sebagai berikut:
 | **Macro Avg**             | 0.65      | 0.62   | 0.60     |         |
 | **Weighted Avg**          | 0.86      | 0.84   | 0.84     |         |
 
-Model bekerja sangat baik pada label mayoritas seperti Politik, namun kurang optimal pada label minor seperti Geografi dan Demografi karena distribusi data yang tidak seimbang.
+Model menunjukkan akurasi umum sebesar **0.84** dan bekerja sangat baik pada label mayoritas seperti Politik, namun kurang optimal pada label minor seperti Geografi dan Demografi karena distribusi data yang tidak seimbang.
 
 ### 8. 🗃️ Klasifikasi Dataset Tanpa Label
 
